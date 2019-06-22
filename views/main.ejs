@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>guttaChat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+        <link href="/css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="bModalBackground">
+            <div class="bModalContainer">
+                <div class="bModalContent">
+                    <div class="bContainer">
+                        <p class="bTitle">Hashed Message</p>
+                        <p class="bUnderline"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="inputContainer">
+            <p style="text-align: center; margin-bottom: -30px; margin-left: -240px; font-size: 12px;">* Names are not encrypted</p>
+            <input id="navnInput" class="Input" type="text" name="ergghreerg" maxlength="10" placeholder="Name..">
+            <input id="keyInput" class="Input" type="text" name="gergerhetgrh" maxlength="20" placeholder="Key.." disabled>
+        </div>
+
+        <div class="contentContainer">
+            <p style="position: absolute; text-align: center; font-size: 12px; margin-top: -40px; border-bottom: 1px solid gray;">Connected clients:</p>
+            <p id="conU" style="position: absolute; text-align: center; font-size: 12px; margin-top: -20px;"></p>
+            <div class="loaderContainer">
+                <div class="loader">¨
+                </div>
+                <p class="msgText">Decrypting messages...</p>
+            </div>
+            <div class="chatContainer">
+
+            </div>
+            <input id="mesInput" type="text" name="rthrthqdwqw" maxlength="80" placeholder="New message...">
+        </div>
+        <script src="/js/main.js"></script>
+    </body>
+</html>
